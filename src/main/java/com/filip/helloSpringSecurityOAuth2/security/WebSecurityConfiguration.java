@@ -1,7 +1,7 @@
-package com.filip.helloSpringSecurity.security;
+package com.filip.helloSpringSecurityOAuth2.security;
 
 
-import com.filip.helloSpringSecurity.service.MUserDetailsService;
+import com.filip.helloSpringSecurityOAuth2.service.MUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.Ordered;
@@ -21,11 +21,10 @@ import org.springframework.security.oauth2.provider.approval.TokenStoreUserAppro
 import org.springframework.security.oauth2.provider.request.DefaultOAuth2RequestFactory;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 import javax.sql.DataSource;
 
-import static com.filip.helloSpringSecurity.security.AuthorizacionServerConfiguration.REALM;
+import static com.filip.helloSpringSecurityOAuth2.security.AuthorizacionServerConfiguration.REALM;
 
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {

@@ -1,7 +1,7 @@
-package com.filip.helloSpringSecurity.service;
+package com.filip.helloSpringSecurityOAuth2.service;
 
-import com.filip.helloSpringSecurity.entity.Customer;
-import com.filip.helloSpringSecurity.repository.CustomerRepository;
+import com.filip.helloSpringSecurityOAuth2.entity.Customer;
+import com.filip.helloSpringSecurityOAuth2.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

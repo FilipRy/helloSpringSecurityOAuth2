@@ -1,8 +1,8 @@
-package com.filip.helloSpringSecurity.controller;
+package com.filip.helloSpringSecurityOAuth2.controller;
 
-import com.filip.helloSpringSecurity.entity.User;
-import com.filip.helloSpringSecurity.entity.UserRole;
-import com.filip.helloSpringSecurity.service.SignupService;
+import com.filip.helloSpringSecurityOAuth2.entity.User;
+import com.filip.helloSpringSecurityOAuth2.entity.UserRole;
+import com.filip.helloSpringSecurityOAuth2.service.SignupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

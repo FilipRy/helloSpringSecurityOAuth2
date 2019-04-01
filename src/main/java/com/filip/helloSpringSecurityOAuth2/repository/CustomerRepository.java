@@ -1,6 +1,6 @@
-package com.filip.helloSpringSecurity.repository;
+package com.filip.helloSpringSecurityOAuth2.repository;
 
-import com.filip.helloSpringSecurity.entity.Customer;
+import com.filip.helloSpringSecurityOAuth2.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {

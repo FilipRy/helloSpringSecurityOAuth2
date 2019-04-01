@@ -1,4 +1,4 @@
-package com.filip.helloSpringSecurity.entity;
+package com.filip.helloSpringSecurityOAuth2.entity;
 
 
 import lombok.Getter;

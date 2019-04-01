@@ -1,4 +1,4 @@
-package com.filip.helloSpringSecurity.security;
+package com.filip.helloSpringSecurityOAuth2.security;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

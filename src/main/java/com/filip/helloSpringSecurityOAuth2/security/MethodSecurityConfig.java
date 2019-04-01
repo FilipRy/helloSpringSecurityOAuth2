@@ -1,4 +1,4 @@
-package com.filip.helloSpringSecurity.security;
+package com.filip.helloSpringSecurityOAuth2.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;

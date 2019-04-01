@@ -1,9 +1,9 @@
-package com.filip.helloSpringSecurity.service;
+package com.filip.helloSpringSecurityOAuth2.service;
 
 
-import com.filip.helloSpringSecurity.entity.User;
-import com.filip.helloSpringSecurity.entity.UserRole;
-import com.filip.helloSpringSecurity.repository.UserRepository;
+import com.filip.helloSpringSecurityOAuth2.entity.User;
+import com.filip.helloSpringSecurityOAuth2.entity.UserRole;
+import com.filip.helloSpringSecurityOAuth2.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

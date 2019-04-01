@@ -1,4 +1,4 @@
-package com.filip.helloSpringSecurity;
+package com.filip.helloSpringSecurityOAuth2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

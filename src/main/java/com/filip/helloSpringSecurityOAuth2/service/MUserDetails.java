@@ -1,7 +1,7 @@
-package com.filip.helloSpringSecurity.service;
+package com.filip.helloSpringSecurityOAuth2.service;
 
-import com.filip.helloSpringSecurity.entity.User;
-import com.filip.helloSpringSecurity.entity.UserRole;
+import com.filip.helloSpringSecurityOAuth2.entity.User;
+import com.filip.helloSpringSecurityOAuth2.entity.UserRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

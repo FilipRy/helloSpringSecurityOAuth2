@@ -1,6 +1,6 @@
-package com.filip.helloSpringSecurity.security;
+package com.filip.helloSpringSecurityOAuth2.security;
 
-import com.filip.helloSpringSecurity.service.MUserDetailsService;
+import com.filip.helloSpringSecurityOAuth2.service.MUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
